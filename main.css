@@ -1,0 +1,250 @@
+body{
+  background-color: #19181B;
+}
+
+img{
+  max-width: 100%;
+}
+
+header{
+  width: 100%;
+  background-color: #423075;
+  color: #DAD0F6;
+}
+
+h1{
+  margin-top: 0px;
+  text-align: center;
+  padding: 25px 0px 25px 0px;
+  font-size: 5em;
+}
+
+.landing{
+  display:none;
+}
+
+.albumContainer{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.albumContainer a{
+  text-decoration: none;
+  text-align: center;
+}
+
+.albumContainer{
+  margin: 100px 5% 50px 5%;
+}
+
+.albumBox{
+  position: relative;
+  margin: 25px;
+  width: 350px;
+  min-width: 100px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.albumBox img{
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
+.thumbnail{
+  width:100%;
+  height: 400px;
+}
+
+.albumContainer .caption{
+  position: absolute;
+  bottom: 25px;
+  left: 120px;
+}
+
+.albumView{
+  display:none;
+}
+
+.albumViewContainer{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar{
+  width: 20%;
+  background-color: #423075;
+}
+
+.sidebar a{
+  color: #DAD0F6;
+  text-align: center;
+}
+
+.sidebar a:hover{
+  color: #19181B;
+}
+
+.nav-stacked{
+  margin:auto;
+}
+
+.displayPhotos{
+  flex-grow: 1;
+  text-align: center;
+}
+
+.photoBox{
+  display:-webkit-inline-box;
+  display:-webkit-inline-flex;
+  display:-ms-inline-flexbox;
+  display:inline-flex;
+  width: 350px;
+  min-width: 100px;
+  margin:25px;
+}
+
+.photoBox img{
+    max-width:250px;
+    max-height: 220px;
+    min-width: 100px;
+    min-height: 100px;
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+  }
+
+.nav{
+  margin-top: 200px;
+  font-size: 2em;
+}
+
+.photoBox a{
+  text-decoration: none;
+}
+
+.btn-default{
+  margin: 20px 0px 0px 20px;
+  text-align: left;
+}
+
+.individualHeader h1{
+  padding-top:0px;
+}
+
+.individualPhoto{
+  text-align: center;
+}
+
+.individualPhotoViewer{
+  margin-bottom: 100px;
+  display: none;
+}
+
+.album1{
+  display: none;
+}
+
+.album2{
+  display: none;
+}
+
+.album3{
+  display: none;
+}
+
+.album4{
+  display: none;
+}
+
+.album5{
+  display: none;
+}
+
+.album6{
+  display: none;
+}
+
+.activeElement{
+  display: block;
+}
+
+@media all and (max-width: 1200px){
+  .sidebar{
+    width: 41%;
+  }
+  .albumBox{
+    margin: 15px;
+    width: 250px;
+  }
+
+  .albumBox img{
+    max-width: 225px;
+    max-height: 225px;
+    width: auto;
+    height: auto;
+  }
+
+  .thumbnail{
+    width:100%;
+    height: 300px;
+  }
+
+  .albumContainer .caption{
+    position: absolute;
+    bottom: 25px;
+    left: 75px;
+  }
+  .photoBox{
+    margin: 15px;
+    width: 250px;
+    font-size: .80em;
+  }
+  .photoBox h3{
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+}
+
+@media all and (max-width: 800px){
+  .sidebar{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  }
+  .sidebar ul li{
+    display: inline-block;
+    font-size: .60em;
+    margin-bottom: 10px;
+  }
+  .sidebar ul{
+    text-align: center;
+  }
+  .nav{
+    margin-top: 5px;
+  }
+  .displayPhotos{
+    position: relative;
+    margin-top: 110px;
+  }
+
+}

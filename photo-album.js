@@ -74,8 +74,6 @@ $('.albumBox').on('click', 'a', function(event){
   var albumTitle = ('.' + $(this).attr('rel'));
   $('.albumView').addClass('activeElement');
   $(albumTitle).addClass('activeElement');
-  //Set button to active.  This piece not working!!
-  // $('.nav-stacked').find($('a').attr('rel') === albumTitle).parent().addClass('active');
 });
 
 $('.sidebar').on('click', 'a', function(event){

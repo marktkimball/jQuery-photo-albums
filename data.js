@@ -38,7 +38,7 @@ var albumOne = [
     photoDescription: 'Here is a picture of Bill Murray.'
   },
   {
-    photoCover: 'http://www.fillmurray.com/201/201/',
+    photoCover: 'http://www.fillmurray.com/100/201/',
     photoName: 'Bill Murray 2',
     photoDescription: 'Here is the 2nd picture of Bill Murray.'
   },

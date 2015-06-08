@@ -33,31 +33,37 @@ var albums = [
 
 var album1 = [
   {
+    relNum: 0,
     photoCover: 'http://www.fillmurray.com/400/400/',
     photoName: 'Bill Murray 1',
     photoDescription: 'Here is a picture of Bill Murray.'
   },
   {
+    relNum: 1,
     photoCover: 'http://www.fillmurray.com/100/201/',
     photoName: 'Bill Murray 2',
     photoDescription: 'Here is the 2nd picture of Bill Murray.'
   },
   {
+    relNum: 2,
     photoCover: 'http://www.fillmurray.com/500/505/',
     photoName: 'Bill Murray 3',
     photoDescription: 'Here is the 3rd picture of Bill Murray.'
   },
   {
+    relNum: 3,
     photoCover: 'http://www.fillmurray.com/300/400/',
     photoName: 'Bill Murray 4',
     photoDescription: 'Here is the 4th picture of Bill Murray.'
   },
   {
+    relNum: 4,
     photoCover: 'http://www.fillmurray.com/404/404/',
     photoName: 'Bill Murray 5',
     photoDescription: 'Here is the 5th picture of Bill Murray.'
   },
   {
+    relNum: 5,
     photoCover: 'http://www.fillmurray.com/205/805/',
     photoName: 'Bill Murray 6',
     photoDescription: 'Here is the last picture of Bill Murray.'
@@ -66,31 +72,37 @@ var album1 = [
 
 var album2 = [
   {
+    relNum: 0,
     photoCover: 'http://www.fillmurray.com/401/401/',
     photoName: 'Bill Murray 7',
     photoDescription: 'Here the 7th picture of Bill Murray.'
   },
   {
+    relNum: 1,
     photoCover: 'http://www.fillmurray.com/321/391/',
     photoName: 'Bill Murray 8',
     photoDescription: 'Here is the 8th picture of Bill Murray.'
   },
   {
+    relNum: 2,
     photoCover: 'http://www.fillmurray.com/572/687/',
     photoName: 'Bill Murray 9',
     photoDescription: 'Here is the 9th picture of Bill Murray.'
   },
   {
+    relNum: 3,
     photoCover: 'http://www.fillmurray.com/999/1000/',
     photoName: 'Bill Murray 10',
     photoDescription: 'Here is the 10th picture of Bill Murray.'
   },
   {
+    relNum: 4,
     photoCover: 'http://www.fillmurray.com/431/555/',
     photoName: 'Bill Murray 11',
     photoDescription: 'Here is the 11th picture of Bill Murray.'
   },
   {
+    relNum: 5,
     photoCover: 'http://www.fillmurray.com/800/740/',
     photoName: 'Bill Murray 12',
     photoDescription: 'Here is the 12th picture of Bill Murray.'
@@ -99,31 +111,37 @@ var album2 = [
 
 var album3 = [
   {
+    relNum: 0,
     photoCover: 'http://www.fillmurray.com/452/800/',
     photoName: 'Bill Murray 1',
     photoDescription: 'Here is a picture of Bill Murray.'
   },
   {
+    relNum: 1,
     photoCover: 'http://www.fillmurray.com/201/201/',
     photoName: 'Bill Murray 2',
     photoDescription: 'Here is the 2nd picture of Bill Murray.'
   },
   {
+    relNum: 2,
     photoCover: 'http://www.fillmurray.com/202/202/',
     photoName: 'Bill Murray 3',
     photoDescription: 'Here is the 3rd picture of Bill Murray.'
   },
   {
+    relNum: 3,
     photoCover: 'http://www.fillmurray.com/355/345/',
     photoName: 'Bill Murray 4',
     photoDescription: 'Here is the 4th picture of Bill Murray.'
   },
   {
+    relNum: 4,
     photoCover: 'http://www.fillmurray.com/1010/1080/',
     photoName: 'Bill Murray 5',
     photoDescription: 'Here is the 5th picture of Bill Murray.'
   },
   {
+    relNum: 5,
     photoCover: 'http://www.fillmurray.com/500/403/',
     photoName: 'Bill Murray 6',
     photoDescription: 'Here is the last picture of Bill Murray.'
@@ -132,31 +150,37 @@ var album3 = [
 
 var album4 = [
   {
+    relNum: 0,
     photoCover: 'http://www.fillmurray.com/410/410/',
     photoName: 'Bill Murray 7',
     photoDescription: 'Here the 7th picture of Bill Murray.'
   },
   {
+    relNum: 1,
     photoCover: 'http://www.fillmurray.com/364/301/',
     photoName: 'Bill Murray 8',
     photoDescription: 'Here is the 8th picture of Bill Murray.'
   },
   {
+    relNum: 2,
     photoCover: 'http://www.fillmurray.com/302/720/',
     photoName: 'Bill Murray 9',
     photoDescription: 'Here is the 9th picture of Bill Murray.'
   },
   {
+    relNum: 3,
     photoCover: 'http://www.fillmurray.com/455/411/',
     photoName: 'Bill Murray 10',
     photoDescription: 'Here is the 10th picture of Bill Murray.'
   },
   {
+    relNum: 4,
     photoCover: 'http://www.fillmurray.com/392/396/',
     photoName: 'Bill Murray 11',
     photoDescription: 'Here is the 11th picture of Bill Murray.'
   },
   {
+    relNum: 5,
     photoCover: 'http://www.fillmurray.com/875/870/',
     photoName: 'Bill Murray 12',
     photoDescription: 'Here is the 12th picture of Bill Murray.'
@@ -165,31 +189,37 @@ var album4 = [
 
 var album5 = [
   {
+    relNum: 0,
     photoCover: 'http://www.fillmurray.com/510/410/',
     photoName: 'Bill Murray 1',
     photoDescription: 'Here is a picture of Bill Murray.'
   },
   {
+    relNum: 1,
     photoCover: 'http://www.fillmurray.com/200/205/',
     photoName: 'Bill Murray 2',
     photoDescription: 'Here is the 2nd picture of Bill Murray.'
   },
   {
+    relNum: 2,
     photoCover: 'http://www.fillmurray.com/551/443/',
     photoName: 'Bill Murray 3',
     photoDescription: 'Here is the 3rd picture of Bill Murray.'
   },
   {
+    relNum: 3,
     photoCover: 'http://www.fillmurray.com/939/835/',
     photoName: 'Bill Murray 4',
     photoDescription: 'Here is the 4th picture of Bill Murray.'
   },
   {
+    relNum: 4,
     photoCover: 'http://www.fillmurray.com/511/812/',
     photoName: 'Bill Murray 5',
     photoDescription: 'Here is the 5th picture of Bill Murray.'
   },
   {
+    relNum: 5,
     photoCover: 'http://www.fillmurray.com/443/345/',
     photoName: 'Bill Murray 6',
     photoDescription: 'Here is the last picture of Bill Murray.'
@@ -198,31 +228,37 @@ var album5 = [
 
 var album6 = [
   {
+    relNum: 0,
     photoCover: 'http://www.fillmurray.com/398/398/',
     photoName: 'Bill Murray 7',
     photoDescription: 'Here the 7th picture of Bill Murray.'
   },
   {
+    relNum: 1,
     photoCover: 'http://www.fillmurray.com/301/301/',
     photoName: 'Bill Murray 8',
     photoDescription: 'Here is the 8th picture of Bill Murray.'
   },
   {
+    relNum: 2,
     photoCover: 'http://www.fillmurray.com/514/515/',
     photoName: 'Bill Murray 9',
     photoDescription: 'Here is the 9th picture of Bill Murray.'
   },
   {
+    relNum: 3,
     photoCover: 'http://www.fillmurray.com/642/764/',
     photoName: 'Bill Murray 10',
     photoDescription: 'Here is the 10th picture of Bill Murray.'
   },
   {
+    relNum: 4,
     photoCover: 'http://www.fillmurray.com/873/800/',
     photoName: 'Bill Murray 11',
     photoDescription: 'Here is the 11th picture of Bill Murray.'
   },
   {
+    relNum: 5,
     photoCover: 'http://www.fillmurray.com/346/453/',
     photoName: 'Bill Murray 12',
     photoDescription: 'Here is the 12th picture of Bill Murray.'
@@ -240,7 +276,7 @@ templates.album = ["<div class='albumBox'>",
 
 templates.photos = ["<div class='photoBox'>",
     "<a href='#' class='thumbnail'>",
-    "<img src='<%= photoCover %>'>",
+    "<img rel='<%= relNum %>' src='<%= photoCover %>'>",
     "<div class='caption'>",
     "<h3><%= photoName %></h3>",
     "<p><%= photoDescription %></p>",
@@ -251,4 +287,4 @@ templates.individual = ["<div class = 'individualHeader'>",
     "<a class='btn btn-default' href='#' role='button'>",
     "Back to <%= albumName %></a>",
     "<h1><%= photoName %></h1></div><div class = 'individualPhoto'><a class = 'glyphicon glyphicon-triangle-left' href='#'></a>",
-    "<img src='<%= photoURL %>'><a class = 'glyphicon glyphicon-triangle-right' href='#'></a></div>"].join("");
+    "<img rel='<%= relNum %>' src='<%= photoURL %>'><a class = 'glyphicon glyphicon-triangle-right' href='#'></a></div>"].join("");

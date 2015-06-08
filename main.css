@@ -104,6 +104,13 @@ h1{
   color: #19181B;
 }
 
+.sidebar .btn{
+  font-size: 2em;
+  display: block;
+  margin: 5px;
+  color: #635192;
+}
+
 .nav-stacked{
   margin:auto;
 }
@@ -142,22 +149,38 @@ h1{
   text-decoration: none;
 }
 
-.btn-default{
-  margin: 20px 0px 0px 20px;
-  text-align: left;
-}
-
 .individualHeader h1{
   padding-top:0px;
+  clear: left;
 }
 
 .individualPhoto{
-  text-align: center;
+  display: inline-block;
 }
 
 .individualPhotoViewer{
   margin-bottom: 100px;
   display: none;
+  text-align: center;
+}
+
+.glyphicon{
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 3em;
+  padding: 10px;
+}
+
+.glyphicon:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.btn-default{
+  margin: 20px 0px 0px 20px;
+  float: left;
+  color: #635192;
 }
 
 .album1{
@@ -244,7 +267,7 @@ h1{
   }
   .displayPhotos{
     position: relative;
-    margin-top: 110px;
+    margin-top: 150px;
   }
 
 }

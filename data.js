@@ -11,7 +11,7 @@ var albums = [
   },
   {
     albumId: 'album3',
-    albumCover: 'http://www.fillmurray.com/452/800/',
+    albumCover: 'http://www.fillmurray.com/800/800/',
     albumName: 'Album 3'
   },
   {
@@ -21,7 +21,7 @@ var albums = [
   },
   {
     albumId: 'album5',
-    albumCover: 'http://www.fillmurray.com/510/410/',
+    albumCover: 'http://www.fillmurray.com/411/411/',
     albumName: 'Album 5'
   },
   {
@@ -31,7 +31,7 @@ var albums = [
   }
 ];
 
-var albumOne = [
+var album1 = [
   {
     photoCover: 'http://www.fillmurray.com/400/400/',
     photoName: 'Bill Murray 1',
@@ -64,7 +64,7 @@ var albumOne = [
   },
 ];
 
-var albumTwo = [
+var album2 = [
   {
     photoCover: 'http://www.fillmurray.com/401/401/',
     photoName: 'Bill Murray 7',
@@ -97,7 +97,7 @@ var albumTwo = [
   },
 ];
 
-var albumThree = [
+var album3 = [
   {
     photoCover: 'http://www.fillmurray.com/452/800/',
     photoName: 'Bill Murray 1',
@@ -130,7 +130,7 @@ var albumThree = [
   },
 ];
 
-var albumFour = [
+var album4 = [
   {
     photoCover: 'http://www.fillmurray.com/410/410/',
     photoName: 'Bill Murray 7',
@@ -163,7 +163,7 @@ var albumFour = [
   },
 ];
 
-var albumFive = [
+var album5 = [
   {
     photoCover: 'http://www.fillmurray.com/510/410/',
     photoName: 'Bill Murray 1',
@@ -196,7 +196,7 @@ var albumFive = [
   },
 ];
 
-var albumSix = [
+var album6 = [
   {
     photoCover: 'http://www.fillmurray.com/398/398/',
     photoName: 'Bill Murray 7',
@@ -246,8 +246,9 @@ templates.photos = ["<div class='photoBox'>",
     "<p><%= photoDescription %></p>",
     "</div></a></div>"].join("");
 
+
 templates.individual = ["<div class = 'individualHeader'>",
     "<a class='btn btn-default' href='#' role='button'>",
     "Back to <%= albumName %></a>",
-    "<h1><%= photoName %></h1></div><div class = 'individualPhoto'>",
-    "<img src='<%= photoURL %>'></div>"].join("");
+    "<h1><%= photoName %></h1></div><div class = 'individualPhoto'><a class = 'glyphicon glyphicon-triangle-left' href='#'></a>",
+    "<img src='<%= photoURL %>'><a class = 'glyphicon glyphicon-triangle-right' href='#'></a></div>"].join("");

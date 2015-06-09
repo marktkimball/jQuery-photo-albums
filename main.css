@@ -109,6 +109,7 @@ h1{
   display: block;
   margin: 5px;
   color: #635192;
+  float:none;
 }
 
 .nav-stacked{

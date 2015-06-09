@@ -95,7 +95,7 @@ var page = {
     var countPhotos = $(albumName).children('div').length;
     var currentRelNum = $(this).siblings('img').attr('rel');
 
-    if(currentRelNum === 5 && $(this).attr('class') === 'glyphicon glyphicon-triangle-right'){
+    if($(this).hasClass('glyphicon-triangle-right') && currentRelNum === '5'){
       var compiledTmpl = _.template(templates.individual);
       var photoDict = {
         albumName: $(albumName).children('h1').text(),
@@ -103,7 +103,7 @@ var page = {
         relNum: $(albumName).children('div').eq(0).children().children('img').attr('rel'),
         photoURL: $(albumName).children('div').eq(0).children().children('img').attr('src')
         };
-        console.log(($this).attr('class'));
+
       $('.individualPhotoViewer').empty();
       $('.individualPhotoViewer').append(compiledTmpl(photoDict));
 
@@ -122,7 +122,6 @@ var page = {
 
     }else{
       currentRelNum++
-      console.log($(this).attr('class'));
       var compiledTmpl = _.template(templates.individual);
       var photoDict = {
           albumName: $(albumName).children('h1').text(),
